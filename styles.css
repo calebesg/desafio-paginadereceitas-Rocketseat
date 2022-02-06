@@ -6,16 +6,30 @@
 
 body {
     background-color: #EAEAEA;
-}
-
-main {
-    background-color: #FFF;
+    font-family: 'Roboto', sans-serif;
 }
 
 h1, h2 {
     color: #1B1B1B;
 }
 
-figcaption, footer {
+main {
+    background-color: #FFF;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+li, p {
+    font-size: 1rem;
+}
+
+figcaption, footer p {
     color: #8F8F8F;
+    font-size: 0.75rem;
 }
